@@ -1,0 +1,16 @@
+@import "../../styles/typography.scss";
+
+.suggestions-text {
+	border: 0.1rem solid #a3a3a3;
+	border-radius: 0rem 0.2rem 0.2rem 0.2rem;
+	background: #fff;
+	box-shadow: 0rem 0rem 1rem 0rem rgba(0, 0, 0, 0.1);
+	margin-top: 160px;
+	h6 {
+		@include font-size(4);
+		@include font-weight();
+		color: #66bfff;
+		margin-bottom: 1rem;
+		padding: 0.6rem;
+	}
+}

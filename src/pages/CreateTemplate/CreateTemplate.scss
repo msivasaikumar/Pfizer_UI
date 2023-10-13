@@ -1,0 +1,24 @@
+@import "../../styles/typography.scss";
+
+.MuiDialog-root .MuiDialog-paper {
+	max-width: 873px;
+}
+.create-prompt-modal div .quill-editor {
+	height: 550px !important;
+}
+.customTextField .MuiInputBase-root {
+	height: 2rem;
+	max-width: 100%;
+	border-radius: 32px;
+}
+.customTextField .MuiInputBase-input {
+	padding: 1.3rem;
+}
+.label {
+	font-weight: bold;
+}
+.project-label {
+	font-weight: bold;
+	margin-left: 1.5rem;
+	margin-top: 0.2rem;
+}

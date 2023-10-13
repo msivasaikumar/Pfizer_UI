@@ -1,0 +1,152 @@
+.custom-modal-content-sm {
+  /* width: 700px; */
+  width: 676px;
+  height: 359px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+}
+.create-prompt-modal {
+  /* width: 700px; */
+  width: 738px;
+  height: 626px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  pointer-events: auto;
+}
+.border-none {
+  height: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-title-heading {
+  color: #2b50ba;
+  text-align: center;
+  /* font family : inter; not found */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+}
+.delete-project-title {
+  margin: 31px;
+  font-weight: bold;
+}
+.bottom-lable {
+  display: flex;
+  bottom: 0;
+  position: absolute;
+  margin-left: 31px;
+  /* margin-top: 80px; */
+}
+.custome-button {
+  width: 788px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+  padding: 6px;
+}
+.drop-down-heading {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+}
+.drop-down-arrow-icon {
+  width: 15px;
+  height: 7px;
+  flex-shrink: 0;
+  stroke-width: 2px;
+  stroke: #505050;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.cancel-btn {
+  width: 150px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  border: 1px solid #2b50ba;
+  background: #fff;
+  color: #2b50ba;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18.098px;
+}
+.save-btn {
+  width: 150px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #2b50ba;
+  color: #fff;
+  text-align: center;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18.098px;
+  border: 0;
+}
+.tags-btn {
+  border-radius: 11px;
+  background: rgba(43, 80, 186, 0.21);
+  width: auto;
+  height: 24px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 5px;
+  margin-top: 5px;
+}
+
+.tags-btn-text {
+  color: #2b50ba;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 161.182%;
+}
+.tags-btn-text::before,
+.tags-btn-text::after {
+  content: '';
+  display: inline-block;
+  width: 8px;
+}
+.add-tags {
+  /* width: 600px;
+    height: 158px;
+    flex-shrink: 0; */
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+}
+.input-container {
+  position: relative;
+}
+
+.input-icon {
+  position: absolute;
+  right: 5px; /* Adjust this value to position the SVG inside the input field */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}

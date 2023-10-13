@@ -1,0 +1,12 @@
+@import "../../../styles/typography.scss";
+@import "../../../styles/variables.scss";
+
+.table-container {
+    .pagination-container {
+        .records-count {
+            @include font-size(1);
+            font-style: italic;
+            color: $textGray2;
+        }
+    }
+}

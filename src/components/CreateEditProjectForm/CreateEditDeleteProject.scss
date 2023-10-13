@@ -1,0 +1,24 @@
+@import "../../styles/typography.scss";
+
+.project-changes-container {
+	.create-edit-container {
+		width: 550px;
+		@media screen and (min-width: 1440px) {
+			width: 750px;
+		}
+	}
+	.delete-project-container {
+		width: 550px;
+		.sub-heading {
+			@include font-size(4);
+			@include font-weight();
+		}
+		.project-name {
+			@include font-size(4);
+			@include font-weight("normal");
+		}
+		.delete-disclaimer {
+			@include font-weight("thin");
+		}
+	}
+}

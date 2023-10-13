@@ -1,0 +1,13 @@
+@import "../../styles/typography.scss";
+@import "../../styles/variables.scss";
+
+.home-container {
+  padding: 16px;
+  .heading {
+    @include font-size(5);
+    @include font-weight();
+  }
+  .cards-container {
+    overflow-x: scroll;
+  }
+}
